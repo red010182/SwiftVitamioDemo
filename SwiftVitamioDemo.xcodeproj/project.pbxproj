@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9298DB931C5B573E003738EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB921C5B573E003738EB /* UIKit.framework */; };
+		9298DB961C5B575D003738EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB951C5B575D003738EB /* QuartzCore.framework */; };
+		9298DB981C5B5764003738EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB971C5B5764003738EB /* AVFoundation.framework */; };
+		9298DB9A1C5B5771003738EB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB991C5B5771003738EB /* MediaPlayer.framework */; };
+		9298DB9C1C5B577A003738EB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB9B1C5B577A003738EB /* AudioToolbox.framework */; };
+		9298DB9E1C5B5784003738EB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB9D1C5B5784003738EB /* CoreMedia.framework */; };
+		9298DBA01C5B578C003738EB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DB9F1C5B578C003738EB /* CoreVideo.framework */; };
+		9298DBA21C5B5795003738EB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBA11C5B5795003738EB /* OpenGLES.framework */; };
+		9298DBA41C5B579E003738EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBA31C5B579E003738EB /* Foundation.framework */; };
+		9298DBA61C5B57A3003738EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBA51C5B57A3003738EB /* CoreGraphics.framework */; };
+		9298DBB41C5B57C3003738EB /* libffmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBB11C5B57C3003738EB /* libffmpeg.a */; };
+		9298DBB51C5B57C3003738EB /* libopenssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBB21C5B57C3003738EB /* libopenssl.a */; };
+		9298DBB61C5B57C3003738EB /* libVitamio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBB31C5B57C3003738EB /* libVitamio.a */; };
+		9298DBB81C5B57D9003738EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBB71C5B57D9003738EB /* libz.tbd */; };
+		9298DBBA1C5B57DF003738EB /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBB91C5B57DF003738EB /* libbz2.1.0.tbd */; };
+		9298DBBC1C5B57E6003738EB /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBBB1C5B57E6003738EB /* libiconv.2.4.0.tbd */; };
+		9298DBBE1C5B5809003738EB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBBD1C5B5809003738EB /* libc++.tbd */; };
+		9298DBC11C5B5B97003738EB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9298DBC01C5B5B97003738EB /* CoreFoundation.framework */; };
+		9298DBCB1C5B6705003738EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9298DBC31C5B6705003738EB /* AppDelegate.swift */; };
+		9298DBCC1C5B6705003738EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9298DBC41C5B6705003738EB /* Assets.xcassets */; };
+		9298DBCE1C5B6705003738EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9298DBC81C5B6705003738EB /* HomeViewController.swift */; };
+		9298DBCF1C5B6705003738EB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9298DBC91C5B6705003738EB /* HomeViewController.xib */; };
+		9298DBD01C5B6705003738EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9298DBCA1C5B6705003738EB /* Info.plist */; };
+		9298DBD31C5B6752003738EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9298DBD11C5B6752003738EB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9298DB7B1C5B55F5003738EB /* SwiftVitamioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVitamioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9298DB921C5B573E003738EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9298DB951C5B575D003738EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9298DB971C5B5764003738EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9298DB991C5B5771003738EB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9298DB9B1C5B577A003738EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9298DB9D1C5B5784003738EB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9298DB9F1C5B578C003738EB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9298DBA11C5B5795003738EB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9298DBA31C5B579E003738EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9298DBA51C5B57A3003738EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9298DBA91C5B57C3003738EB /* VDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDefines.h; sourceTree = "<group>"; };
+		9298DBAA1C5B57C3003738EB /* Vitamio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vitamio.h; sourceTree = "<group>"; };
+		9298DBAB1C5B57C3003738EB /* VMediaExtracter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracter.h; sourceTree = "<group>"; };
+		9298DBAC1C5B57C3003738EB /* VMediaExtracterDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaExtracterDef.h; sourceTree = "<group>"; };
+		9298DBAD1C5B57C3003738EB /* VMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayer.h; sourceTree = "<group>"; };
+		9298DBAE1C5B57C3003738EB /* VMediaPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMediaPlayerDelegate.h; sourceTree = "<group>"; };
+		9298DBAF1C5B57C3003738EB /* VPlayerManageDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPlayerManageDef.h; sourceTree = "<group>"; };
+		9298DBB01C5B57C3003738EB /* VSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSingleton.h; sourceTree = "<group>"; };
+		9298DBB11C5B57C3003738EB /* libffmpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffmpeg.a; path = Vitamio/libffmpeg.a; sourceTree = "<group>"; };
+		9298DBB21C5B57C3003738EB /* libopenssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenssl.a; path = Vitamio/libopenssl.a; sourceTree = "<group>"; };
+		9298DBB31C5B57C3003738EB /* libVitamio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVitamio.a; path = Vitamio/libVitamio.a; sourceTree = "<group>"; };
+		9298DBB71C5B57D9003738EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9298DBB91C5B57DF003738EB /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		9298DBBB1C5B57E6003738EB /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		9298DBBD1C5B5809003738EB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9298DBBF1C5B590B003738EB /* SwiftVitamioDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftVitamioDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		9298DBC01C5B5B97003738EB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9298DBC31C5B6705003738EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SwiftVitamioDemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		9298DBC41C5B6705003738EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SwiftVitamioDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		9298DBC81C5B6705003738EB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = SwiftVitamioDemo/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		9298DBC91C5B6705003738EB /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = SwiftVitamioDemo/HomeViewController.xib; sourceTree = SOURCE_ROOT; };
+		9298DBCA1C5B6705003738EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftVitamioDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		9298DBD21C5B6752003738EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SwiftVitamioDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9298DB781C5B55F5003738EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DBC11C5B5B97003738EB /* CoreFoundation.framework in Frameworks */,
+				9298DBBE1C5B5809003738EB /* libc++.tbd in Frameworks */,
+				9298DBBC1C5B57E6003738EB /* libiconv.2.4.0.tbd in Frameworks */,
+				9298DBBA1C5B57DF003738EB /* libbz2.1.0.tbd in Frameworks */,
+				9298DBB81C5B57D9003738EB /* libz.tbd in Frameworks */,
+				9298DBA61C5B57A3003738EB /* CoreGraphics.framework in Frameworks */,
+				9298DBB41C5B57C3003738EB /* libffmpeg.a in Frameworks */,
+				9298DBA41C5B579E003738EB /* Foundation.framework in Frameworks */,
+				9298DBB61C5B57C3003738EB /* libVitamio.a in Frameworks */,
+				9298DBA21C5B5795003738EB /* OpenGLES.framework in Frameworks */,
+				9298DBA01C5B578C003738EB /* CoreVideo.framework in Frameworks */,
+				9298DB9E1C5B5784003738EB /* CoreMedia.framework in Frameworks */,
+				9298DBB51C5B57C3003738EB /* libopenssl.a in Frameworks */,
+				9298DB9C1C5B577A003738EB /* AudioToolbox.framework in Frameworks */,
+				9298DB9A1C5B5771003738EB /* MediaPlayer.framework in Frameworks */,
+				9298DB981C5B5764003738EB /* AVFoundation.framework in Frameworks */,
+				9298DB961C5B575D003738EB /* QuartzCore.framework in Frameworks */,
+				9298DB931C5B573E003738EB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9298DB721C5B55F5003738EB = {
+			isa = PBXGroup;
+			children = (
+				9298DB7D1C5B55F5003738EB /* SwiftVitamioDemo */,
+				9298DB7C1C5B55F5003738EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9298DB7C1C5B55F5003738EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9298DB7B1C5B55F5003738EB /* SwiftVitamioDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9298DB7D1C5B55F5003738EB /* SwiftVitamioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9298DBC31C5B6705003738EB /* AppDelegate.swift */,
+				9298DBC81C5B6705003738EB /* HomeViewController.swift */,
+				9298DBC91C5B6705003738EB /* HomeViewController.xib */,
+				9298DBC21C5B6189003738EB /* Other */,
+			);
+			name = SwiftVitamioDemo;
+			path = avc;
+			sourceTree = "<group>";
+		};
+		9298DB941C5B574B003738EB /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				9298DBBD1C5B5809003738EB /* libc++.tbd */,
+				9298DBBB1C5B57E6003738EB /* libiconv.2.4.0.tbd */,
+				9298DBB91C5B57DF003738EB /* libbz2.1.0.tbd */,
+				9298DBB71C5B57D9003738EB /* libz.tbd */,
+				9298DBA71C5B57C3003738EB /* include */,
+				9298DBB11C5B57C3003738EB /* libffmpeg.a */,
+				9298DBB21C5B57C3003738EB /* libopenssl.a */,
+				9298DBB31C5B57C3003738EB /* libVitamio.a */,
+				9298DBC01C5B5B97003738EB /* CoreFoundation.framework */,
+				9298DBA51C5B57A3003738EB /* CoreGraphics.framework */,
+				9298DBA31C5B579E003738EB /* Foundation.framework */,
+				9298DBA11C5B5795003738EB /* OpenGLES.framework */,
+				9298DB9F1C5B578C003738EB /* CoreVideo.framework */,
+				9298DB9D1C5B5784003738EB /* CoreMedia.framework */,
+				9298DB9B1C5B577A003738EB /* AudioToolbox.framework */,
+				9298DB991C5B5771003738EB /* MediaPlayer.framework */,
+				9298DB971C5B5764003738EB /* AVFoundation.framework */,
+				9298DB951C5B575D003738EB /* QuartzCore.framework */,
+				9298DB921C5B573E003738EB /* UIKit.framework */,
+			);
+			name = Framework;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9298DBA71C5B57C3003738EB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9298DBA81C5B57C3003738EB /* Vitamio */,
+			);
+			name = include;
+			path = Vitamio/include;
+			sourceTree = "<group>";
+		};
+		9298DBA81C5B57C3003738EB /* Vitamio */ = {
+			isa = PBXGroup;
+			children = (
+				9298DBA91C5B57C3003738EB /* VDefines.h */,
+				9298DBAA1C5B57C3003738EB /* Vitamio.h */,
+				9298DBAB1C5B57C3003738EB /* VMediaExtracter.h */,
+				9298DBAC1C5B57C3003738EB /* VMediaExtracterDef.h */,
+				9298DBAD1C5B57C3003738EB /* VMediaPlayer.h */,
+				9298DBAE1C5B57C3003738EB /* VMediaPlayerDelegate.h */,
+				9298DBAF1C5B57C3003738EB /* VPlayerManageDef.h */,
+				9298DBB01C5B57C3003738EB /* VSingleton.h */,
+			);
+			path = Vitamio;
+			sourceTree = "<group>";
+		};
+		9298DBC21C5B6189003738EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9298DBD11C5B6752003738EB /* LaunchScreen.storyboard */,
+				9298DBC41C5B6705003738EB /* Assets.xcassets */,
+				9298DBCA1C5B6705003738EB /* Info.plist */,
+				9298DBBF1C5B590B003738EB /* SwiftVitamioDemo-Bridging-Header.h */,
+				9298DB941C5B574B003738EB /* Framework */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9298DB7A1C5B55F5003738EB /* SwiftVitamioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9298DB8D1C5B55F5003738EB /* Build configuration list for PBXNativeTarget "SwiftVitamioDemo" */;
+			buildPhases = (
+				9298DB771C5B55F5003738EB /* Sources */,
+				9298DB781C5B55F5003738EB /* Frameworks */,
+				9298DB791C5B55F5003738EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVitamioDemo;
+			productName = avc;
+			productReference = 9298DB7B1C5B55F5003738EB /* SwiftVitamioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9298DB731C5B55F5003738EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xmai;
+				TargetAttributes = {
+					9298DB7A1C5B55F5003738EB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9298DB761C5B55F5003738EB /* Build configuration list for PBXProject "SwiftVitamioDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9298DB721C5B55F5003738EB;
+			productRefGroup = 9298DB7C1C5B55F5003738EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9298DB7A1C5B55F5003738EB /* SwiftVitamioDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9298DB791C5B55F5003738EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DBCC1C5B6705003738EB /* Assets.xcassets in Resources */,
+				9298DBD31C5B6752003738EB /* LaunchScreen.storyboard in Resources */,
+				9298DBD01C5B6705003738EB /* Info.plist in Resources */,
+				9298DBCF1C5B6705003738EB /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9298DB771C5B55F5003738EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9298DBCB1C5B6705003738EB /* AppDelegate.swift in Sources */,
+				9298DBCE1C5B6705003738EB /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9298DBD11C5B6752003738EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9298DBD21C5B6752003738EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9298DB8B1C5B55F5003738EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9298DB8C1C5B55F5003738EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9298DB8E1C5B55F5003738EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftVitamioDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vitamio",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpy.SwiftVitamioDemo;
+				PRODUCT_NAME = SwiftVitamioDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftVitamioDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		9298DB8F1C5B55F5003738EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftVitamioDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vitamio",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tpy.SwiftVitamioDemo;
+				PRODUCT_NAME = SwiftVitamioDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftVitamioDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9298DB761C5B55F5003738EB /* Build configuration list for PBXProject "SwiftVitamioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9298DB8B1C5B55F5003738EB /* Debug */,
+				9298DB8C1C5B55F5003738EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9298DB8D1C5B55F5003738EB /* Build configuration list for PBXNativeTarget "SwiftVitamioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9298DB8E1C5B55F5003738EB /* Debug */,
+				9298DB8F1C5B55F5003738EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9298DB731C5B55F5003738EB /* Project object */;
+}
